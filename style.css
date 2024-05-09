@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#loll{
+
+height: 100%;
+width: 100%;
+background-color: rgb(255, 169, 138);
+border-radius: 5%;
+border: 10%;
+}
+#xd{
+border: solid black;
+border-width: 3px;
+height: 35%;
+width: 20%;
+border-radius: 20%;
+position: absolute;
+left: 42%;
+bottom: 43%;
+object-fit: cover
+}
+#join{
+
+
+    height: 10px;
+    width: 100px;
+    
+position: absolute;
+left: 48%;
+bottom: 38%;
+
+
+}
+
+#info{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+width: 35%;
+height: 90%;
+background-color: rgba(236, 165, 72, 0.486);
+border-radius: 60px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+line-height: 50px;
+font-weight: 10px;
+font-family: serif;
+}
+#small{
+    position: absolute;
+bottom: 250px;
+
+
+
+
+}
+#sofa{
+    height: 30px;
+    width: 100px;
+border: solid;
+position: absolute;
+left: 48%;
+top: 10px;
+border-radius: 100px;
+}
+#xdd{
+border-radius: 15%;
+    background-color: rgba(7, 238, 255, 0.678);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#zeroo{
+object-fit: cover;
+height: 60%;
+width: 30%;
+position: absolute;
+left: 900px;
+border-radius: 100px;
+bottom: 150px;
+border: solid;
+}
+
+#lover{
+position: absolute;
+bottom: 3px;
+left: 10px;
+}
+
+body {
+    font-family: helvetica;
+    background: #eee;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  form {
+    margin-top: 2em;
+  }
+  
+  .hide {
+    position: absolute;
+    left: -10000px;
+  }
+  
+  label {
+    display: inline-block;
+    background: gray;
+    margin: 25px;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+  
+  #happy {
+    ~ .option-happy {
+      cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+    }
+    &:checked ~ .option-happy {
+    background: green;
+    }
+  }
+  
+  #sad {
+    ~ .option-sad {
+      cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+    }
+    &:checked ~ .option-sad {
+      background: red;
+    }
+  }
+  
+  #meh {
+    ~ .option-meh {
+      cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/meh.png"), auto;
+    }
+    &:checked ~ .option-meh {
+      background: orange;
+    }
+  }
